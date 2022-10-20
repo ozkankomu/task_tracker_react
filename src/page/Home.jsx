@@ -33,13 +33,13 @@ const Home = () => {
         onClick={() => {
           toggle();
         }}
-        size="lg m-3"
+        size="lg my-2 w-100"
         variant="danger"
       >
         {text}
       </Button>
-      {isOpen && <AddTask />}
-      <TaskList task={task} />
+      {isOpen && <AddTask getTask={getTask} />}
+      <TaskList task={task} getTask={getTask} />
     </div>
   );
 };
