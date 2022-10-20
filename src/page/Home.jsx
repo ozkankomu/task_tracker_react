@@ -21,7 +21,6 @@ const Home = () => {
   const getTask = async () => {
     const { data } = await axios(url);
     setTask(data);
-    console.log(data);
   };
 
   useEffect(() => {
@@ -29,7 +28,7 @@ const Home = () => {
   }, []);
 
   return (
-    <div>
+    <div className="mt-4 d-flex justify-content-center flex-column">
       <Button
         onClick={() => {
           toggle();
