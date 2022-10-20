@@ -46,7 +46,7 @@ const AddTask = ({ getTask }) => {
           <Form.Control
             value={date}
             required
-            type="date"
+            type="datetime-local"
             onChange={(e) => setDate(e.target.value)}
           />
         </Form.Group>
