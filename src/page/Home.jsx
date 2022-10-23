@@ -6,8 +6,8 @@ import Button from "react-bootstrap/Button";
 import axios from "axios";
 
 const Home = () => {
-  const [isOpen, setIsOpen] = useState(false);
-  const [text, setText] = useState("Show Task Bar");
+  const [isOpen, setIsOpen] = useState(true);
+  const [text, setText] = useState("Hide Task Bar");
   const [task, setTask] = useState([]);
 
   const url = "https://63518208dfe45bbd55c21a6c.mockapi.io/api/task";
