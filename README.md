@@ -50,7 +50,6 @@ SOLUTION
 ```
 
 
-
 ## Screenshot
 <p align="left">
 <a href="https://ozkankomu.github.io/task_tracker_react/"><img src="screen.gif" alt="screenshot" target=_blanked></a>
